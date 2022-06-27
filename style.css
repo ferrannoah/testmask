@@ -1,5 +1,5 @@
 * {
-    background-color: #525050;
+    background-color: white;
     font-family: "LHF Antique Half Block";
     color: black;
     font-size: calc(.3vh + 1.0vw);
@@ -26,6 +26,19 @@
     
 }
 
+input[type=radio] {
+    height: calc(0.5vh + 0.5vw);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .left {
     left: 0vw;
     float: left;
@@ -41,10 +54,15 @@
     margin-top: 18vh;
     width: 45vw;
     margin-right: 2.5vw;
+   
 }
 
 
 
 .col {
-    background-color: white;
+  
+}
+
+.bg {
+    
 }
